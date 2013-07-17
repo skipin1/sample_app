@@ -1,0 +1,263 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"be",
+				"before"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"parent",
+				"postparent_id"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"end",
+				"end	end (ERB)"
+			],
+			[
+				"pare",
+				"parentid"
+			],
+			[
+				"e",
+				"end	end (ERB)"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"p",
+				"params"
+			],
+			[
+				"co",
+				"controller"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"clas",
+				"class_name"
+			],
+			[
+				"pos",
+				"posttable"
+			],
+			[
+				"ra",
+				"rails_base"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sva/sites/rails/sample_app_3.2/.rspec",
+		"/home/sva/sites/rails/sample_app_3.2/.gitignore",
+		"/home/sva/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+		"/home/sva/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
+		"/home/sva/sites/rails/sample_app_3.2/Guardfile",
+		"/home/sva/sites/rails/sample_app_3.2/spec/requests/static_pages_spec.rb",
+		"/home/sva/sites/rails/sample_app_3.2/config/routes.rb",
+		"/home/sva/sites/rails/sample_app_3.2/app/views/static_page/contact.html.erb",
+		"/home/sva/sites/rails/sample_app_3.2/app/controllers/static_page_controller.rb",
+		"/home/sva/sites/rails/sample_app_3.2/app/views/layouts/application.html.erb",
+		"/home/sva/sites/rails/sample_app_3.2/config/database.yml",
+		"/home/sva/sites/rails/test-work/Gemfile",
+		"/home/sva/sites/rails/test-work/app/helpers/application_helper.rb",
+		"/home/sva/sites/rails/test-work/app/models/post.rb",
+		"/home/sva/Downloads/iptv.m3u",
+		"/home/sva/sites/rails/test-work/app/controllers/posts_controller.rb",
+		"/home/sva/sites/rails/test-work/config/routes.rb",
+		"/home/sva/sites/rails/test-work/app/views/posts/_post.html.erb",
+		"/home/sva/sites/rails/test-work/app/views/posts/index.html.erb",
+		"/home/sva/sites/rails/test-work/app/views/posts/show.html.erb",
+		"/home/sva/sites/rails/test-work/app/views/posts/_form.html.erb",
+		"/home/sva/sites/rails/test-work/app/views/posts/edit.html.erb",
+		"/home/sva/sites/rails/test-work/config/environments/development.rb",
+		"/home/sva/sites/rails/test-work/app/views/posts/new.html.erb",
+		"/home/sva/sites/rails/test-work/db/migrate/20130518053139_add_slug_to_posts.rb",
+		"/home/sva/sites/rails/test-work/app/views/posts/_site_menu.html.erb",
+		"/home/sva/sites/rails/test-work/db/migrate/20130507185909_create_posts.rb",
+		"/home/sva/sites/rails/test-work/app/views/posts/_sitetree.html.erb",
+		"/home/sva/sites/rails/test-work/app/views/layouts/application.html.erb",
+		"/home/sva/sites/rails/test-work/db/migrate/20130507105620_create_posts_old(work).rb",
+		"/home/sva/sites/rails/test-job/db/migrate/20130507185909_create_posts.rb",
+		"/home/sva/sites/rails/test-job/app/models/post.rb",
+		"/home/sva/sites/rails/test-job/config/routes.rb",
+		"/home/sva/sites/rails/test-job/db/migrate/20130507105620_create_posts_old(work).rb",
+		"/home/sva/sites/rails/test-job/app/models/post_old(work).rb",
+		"/home/sva/sites/rails/test-job/Gemfile",
+		"/home/sva/sites/rails/bti/config/database.yml",
+		"/home/sva/sites/rails/bti/Gemfile",
+		"/home/sva/sites/rails/bti/config/boot.rb",
+		"/home/sva/Downloads/makradio1362802059.m3u",
+		"/home/sva/sites/rails/bti/config/environments/development.rb",
+		"/home/sva/sites/rails/bti/config/locales/en.yml",
+		"/home/sva/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

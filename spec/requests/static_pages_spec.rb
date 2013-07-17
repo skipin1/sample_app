@@ -5,61 +5,34 @@ require 'spec_helper'
 describe "Static pages:" do
 
 	let(:base_title) {"Ruby on Rails Tutorial Sample App"}
+  subject {page}
 
   describe "Главная" do
+    before { visit root_path }
 
-    it "должна содержать тэг h1 'Главная'" do
-      visit root_path
-      page.should have_selector('h1', text: "Главная")
-    end
+    it { should have_selector('h1', text: "Главная") }
 
-		it "должна содержать тэг title 'Главная'" do
-			visit root_path
-			page.should have_selector('title', text: "#{base_title} | Главная")
-		end
+		it { should have_selector('title', text: full_title('Главная')) }
 	end
 
-  describe "Страница Help" do
+  describe "Страница Помощь" do
+    before { visit help_path }
 
-  	it "должна содержать h1 тэг 'Помощь'" do
-  		visit help_path
-  		page.should have_selector('h1', text: "Помощь")
-  	end
-
-  	it "должна содержать тэг title 'Помощь'" do
-  		visit help_path
-  		page.should have_selector('title', text: "#{base_title} | Помощь")
-  	end
+  	it { should have_selector('h1', text: "Помощь") }
+  	it { should have_selector('title', text: full_title('Помощь')) }
   end
 
   describe "Страница О нас" do
+    before { visit about_path }
 
-  	it "должна содержать h1 тэг 'О нас'" do
-  		visit about_path
-  		page.should have_selector('h1', text: "О нас")
-  	end
-
-  	it "должна содержать тэг title 'О нас'" do
-  		visit about_path
-  		page.should have_selector('title', text: "#{base_title} | О нас")
-  	end
+  	it { should have_selector('h1', text: "О нас") }
+  	it { should have_selector('title', text: full_title('О нас')) }
 	end
 
 	describe "Страница Контакты" do
+    before { visit contact_path }
 
-  	it "должна содержать h1 тэг 'Контакты'" do
-  		visit contact_path
-  		page.should have_selector('h1', text: "Контакты")
-  	end
-
-  	it "должна содержать основной заголовок сайта" do
-      visit contact_path
-      page.should have_selector('title', text: "#{base_title}")
-    end
-
-  	it "должна содержать тэг title 'Контакты'" do
-  		visit contact_path
-  		page.should have_selector('title', text: "#{base_title} | Контакты")
-  	end
+  	it { should have_selector('h1', text: "Контакты") }
+   	it { should have_selector('title', text: full_title('Контакты')) }
 	end
 end
