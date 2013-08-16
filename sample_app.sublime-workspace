@@ -4,68 +4,240 @@
 		"selected_items":
 		[
 			[
-				"be",
-				"before"
-			],
-			[
-				"post",
-				"posts"
-			],
-			[
-				"parent",
-				"postparent_id"
-			],
-			[
-				"re",
-				"resources"
-			],
-			[
-				"po",
-				"post"
-			],
-			[
-				"end",
-				"end	end (ERB)"
-			],
-			[
-				"pare",
-				"parentid"
-			],
-			[
-				"e",
-				"end	end (ERB)"
-			],
-			[
-				"par",
-				"params"
+				"A",
+				"About"
 			],
 			[
 				"pa",
-				"parent"
+				"page_title"
 			],
 			[
-				"p",
-				"params"
+				"ma",
+				"match"
+			],
+			[
+				"К",
+				"Контакты"
+			],
+			[
+				"ca",
+				"cart"
+			],
+			[
+				"be",
+				"belongs_to"
+			],
+			[
+				"P",
+				"PAYMENT_TYPES"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ass",
+				"assert_redirected_to"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"lin",
+				"line_item_id"
+			],
+			[
+				"li",
+				"line_item_id"
+			],
+			[
+				"l",
+				"line_item_id"
+			],
+			[
+				"line",
+				"line_items"
+			],
+			[
+				"cur",
+				"current_item"
+			],
+			[
+				"line_",
+				"line_item"
+			],
+			[
+				"cart",
+				"cart"
+			],
+			[
+				"curr",
+				"current_cart"
+			],
+			[
+				"mi",
+				"minus_key"
+			],
+			[
+				"ase",
+				"assert_select"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cli",
+				"clicked_button"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"sma",
+				"smaller"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"no",
+				"no_content"
+			],
+			[
+				"to",
+				"total_price"
+			],
+			[
+				"total",
+				"total_price"
+			],
+			[
+				"car",
+				"cart_id"
+			],
+			[
+				"eac",
+				"each"
 			],
 			[
 				"co",
-				"controller"
+				"count"
 			],
 			[
-				"res",
-				"resource"
+				"de",
+				"def	def … end"
 			],
 			[
-				"clas",
-				"class_name"
+				"se",
+				"session"
 			],
 			[
-				"pos",
-				"posttable"
+				"My",
+				"MyString"
 			],
 			[
-				"ra",
-				"rails_base"
+				"M",
+				"MyString"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"imag",
+				"image_url"
+			],
+			[
+				"image",
+				"image_tag"
+			],
+			[
+				"ima",
+				"image_url"
+			],
+			[
+				"new",
+				"new_product"
+			],
+			[
+				"in",
+				"invalid"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"gre",
+				"greater_that_or_equal_to"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"min",
+				"min-width"
 			]
 		]
 	},
@@ -75,7 +247,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 52.0,
+		"height": 306.0,
 		"selected_items":
 		[
 			[
@@ -83,27 +255,27 @@
 				"Package Control: Install Package"
 			],
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
 				"inst",
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"i",
+				"install ",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 593.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -116,53 +288,120 @@
 	},
 	"file_history":
 	[
-		"/home/sva/sites/rails/sample_app_3.2/.rspec",
-		"/home/sva/sites/rails/sample_app_3.2/.gitignore",
-		"/home/sva/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+		"/home/sites/rails/sample_app/app/assets/stylesheets/custom.css",
+		"/home/sites/rails/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/sites/rails/sample_app/app/assets/stylesheets/media-queries.css",
+		"/home/sites/rails/sample_app/spec/support/utilities.rb",
+		"/home/sites/rails/sample_app/app/views/layouts/_shim.html.erb",
+		"/home/sites/rails/sample_app/spec/helpers/application_helper.rb",
+		"/home/sites/rails/sample_app/app/views/layouts/_header.html.erb",
+		"/home/sites/rails/sample_app/public/index.html",
+		"/home/sites/rails/sample_app/app/controllers/static_page_controller.rb",
+		"/home/sites/rails/sample_app/app/helpers/application_helper.rb",
+		"/home/sites/rails/sample_app/app/views/static_page/home.html.erb",
+		"/home/sites/rails/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/sites/rails/sample_app/Gemfile",
+		"/home/sites/rails/sample_app/config/routes.rb",
+		"/home/sites/rails/sample_app/app/views/layouts/application.html.erb",
+		"/home/sites/rails/sample_app/Guardfile",
 		"/home/sva/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
-		"/home/sva/sites/rails/sample_app_3.2/Guardfile",
-		"/home/sva/sites/rails/sample_app_3.2/spec/requests/static_pages_spec.rb",
-		"/home/sva/sites/rails/sample_app_3.2/config/routes.rb",
-		"/home/sva/sites/rails/sample_app_3.2/app/views/static_page/contact.html.erb",
-		"/home/sva/sites/rails/sample_app_3.2/app/controllers/static_page_controller.rb",
-		"/home/sva/sites/rails/sample_app_3.2/app/views/layouts/application.html.erb",
-		"/home/sva/sites/rails/sample_app_3.2/config/database.yml",
-		"/home/sva/sites/rails/test-work/Gemfile",
-		"/home/sva/sites/rails/test-work/app/helpers/application_helper.rb",
-		"/home/sva/sites/rails/test-work/app/models/post.rb",
-		"/home/sva/Downloads/iptv.m3u",
-		"/home/sva/sites/rails/test-work/app/controllers/posts_controller.rb",
-		"/home/sva/sites/rails/test-work/config/routes.rb",
-		"/home/sva/sites/rails/test-work/app/views/posts/_post.html.erb",
-		"/home/sva/sites/rails/test-work/app/views/posts/index.html.erb",
-		"/home/sva/sites/rails/test-work/app/views/posts/show.html.erb",
-		"/home/sva/sites/rails/test-work/app/views/posts/_form.html.erb",
-		"/home/sva/sites/rails/test-work/app/views/posts/edit.html.erb",
-		"/home/sva/sites/rails/test-work/config/environments/development.rb",
-		"/home/sva/sites/rails/test-work/app/views/posts/new.html.erb",
-		"/home/sva/sites/rails/test-work/db/migrate/20130518053139_add_slug_to_posts.rb",
-		"/home/sva/sites/rails/test-work/app/views/posts/_site_menu.html.erb",
-		"/home/sva/sites/rails/test-work/db/migrate/20130507185909_create_posts.rb",
-		"/home/sva/sites/rails/test-work/app/views/posts/_sitetree.html.erb",
-		"/home/sva/sites/rails/test-work/app/views/layouts/application.html.erb",
-		"/home/sva/sites/rails/test-work/db/migrate/20130507105620_create_posts_old(work).rb",
-		"/home/sva/sites/rails/test-job/db/migrate/20130507185909_create_posts.rb",
-		"/home/sva/sites/rails/test-job/app/models/post.rb",
-		"/home/sva/sites/rails/test-job/config/routes.rb",
-		"/home/sva/sites/rails/test-job/db/migrate/20130507105620_create_posts_old(work).rb",
-		"/home/sva/sites/rails/test-job/app/models/post_old(work).rb",
-		"/home/sva/sites/rails/test-job/Gemfile",
-		"/home/sva/sites/rails/bti/config/database.yml",
-		"/home/sva/sites/rails/bti/Gemfile",
-		"/home/sva/sites/rails/bti/config/boot.rb",
-		"/home/sva/Downloads/makradio1362802059.m3u",
-		"/home/sva/sites/rails/bti/config/environments/development.rb",
-		"/home/sva/sites/rails/bti/config/locales/en.yml",
-		"/home/sva/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+		"/home/sva/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+		"/home/sites/rails/sample_app/app/views/static_page/about.html.erb",
+		"/home/sites/rails/sample_app/app/views/static_page/help.html.erb",
+		"/home/sites/rails/sample_app/app/views/static_page/contact.html.erb",
+		"/home/sites/rails/sample_app/spec/spec_helper.rb",
+		"/home/sites/rails/sample_app/.rspec",
+		"/home/sites/rails/sample_app/app/views/layouts/foobar",
+		"/home/sva/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/sites/rails/sample_app/config/database.yml",
+		"/home/sites/rails/sample_app/.gitignore",
+		"/home/sites/rails/sample_app/README.md",
+		"/home/sites/rails/sample_app/Gemfile.lock",
+		"/home/sites/rails/sample_app/README.rdoc",
+		"/home/sites/rails/sample_app/app/views/pages/home.html.erb",
+		"/home/sites/rails/sample_app/spec/requests/pages_spec.rb",
+		"/home/sva/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/sva/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/sites/rails/depot/app/views/store/index.html.erb",
+		"/home/sites/rails/depot/app/assets/javascripts/store.js.coffee",
+		"/home/sites/rails/depot/public/404.html",
+		"/home/sites/rails/depot/config/routes.rb",
+		"/home/sites/rails/depot/config/database.yml",
+		"/home/sites/rails/depot/app/views/layouts/application.html.erb",
+		"/home/sites/rails/depot/app/assets/javascripts/application.js",
+		"/home/sites/rails/depot/db/seeds.rb",
+		"/home/sites/rails/depot/test/functional/orders_controller_test.rb",
+		"/home/sites/rails/depot/app/controllers/application_controller.rb",
+		"/home/sites/rails/depot/app/views/orders/new.html.erb",
+		"/home/sites/rails/depot/app/models/order.rb",
+		"/home/sites/rails/depot/app/controllers/orders_controller.rb",
+		"/home/sites/rails/depot/app/views/carts/_cart.html.erb",
+		"/home/sites/rails/depot/app/views/orders/_form.html.erb",
+		"/home/sites/uralbti/site/favicon.ico",
+		"/home/sites/rails/depot/app/assets/stylesheets/application.css.scss",
+		"/home/sites/rails/depot/test/functional/carts_controller_test.rb",
+		"/home/sites/rails/depot/test/functional/line_items_controller_test.rb",
+		"/home/sva/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/sites/rails/depot/test/fixtures/line_items.yml",
+		"/home/sites/rails/depot/app/controllers/line_items_controller.rb",
+		"/home/sites/rails/depot/app/models/line_item.rb",
+		"/home/sites/rails/depot/test/fixtures/products.yml",
+		"/home/sites/rails/depot/test/fixtures/orders.yml",
+		"/home/sites/rails/depot/app/assets/stylesheets/depot_form",
+		"/home/sites/rails/depot/app/views/carts/destroy.js.erb",
+		"/home/sites/rails/depot/app/views/line_items/destroy.js.erb",
+		"/home/sites/rails/depot/app/models/cart.rb",
+		"/home/sites/rails/depot/app/views/line_items/_line_item.html.erb",
+		"/home/sites/rails/depot/app/views/line_items/increment.js.erb",
+		"/home/sites/rails/depot/app/views/line_items/decrement.js.erb",
+		"/home/sites/rails/depot/app/views/line_items/_increment.js.rb.html.erb",
+		"/home/sites/rails/depot/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/sites/rails/depot/app/assets/stylesheets/line_items.css.scss",
+		"/home/sites/rails/depot/app/views/line_items/create.js.erb",
+		"/home/sites/rails/depot/app/views/carts/show.html.erb",
+		"/home/sites/rails/depot/app/controllers/carts_controller.rb",
+		"/home/sites/rails/depot/app/assets/stylesheets/store.css.scss",
+		"/home/sites/rails/depot/test/unit/product_test.rb",
+		"/home/sites/rails/depot/test/functional/store_controller_test.rb",
+		"/home/sites/rails/depot/app/models/product.rb",
+		"/home/sites/rails/depot/app/helpers/application_helper.rb",
+		"/home/sites/rails/depot/app/controllers/store_controller.rb",
+		"/home/sites/rails/depot/app/controllers/products_controller.rb",
+		"/home/sites/rails/depot/app/helpers/products_helper.rb",
+		"/home/sites/rails/depot/app/helpers/store_helper.rb",
+		"/home/sites/rails/depot/app/helpers/line_items_helper.rb",
+		"/home/sites/rails/depot/app/helpers/carts_helper.rb",
+		"/home/sites/rails/depot/app/assets/stylesheets/carts.css.scss",
+		"/home/sva/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/sva/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/sites/rails/depot/app/views/line_items/_line_items.html.erb",
+		"/home/sites/rails/depot/app/views/_line_items.html.erb",
+		"/home/sites/rails/depot/test/fixtures/carts.yml",
+		"/home/sites/rails/depot/log/development.log",
+		"/home/sites/rails/depot/log/test.log",
+		"/home/sites/rails/depot/app/controllers/destory",
+		"/home/sites/rails/depot/app/views/carts/index.html.erb",
+		"/home/sites/rails/depot/db/migrate/20121011084536_combine_items_in_cart.rb",
+		"/home/sites/rails/depot/db/migrate/20121011072919_add_quantity_to_line_items.rb",
+		"/home/sites/rails/depot/app/assets/stylesheets/products.css.scss",
+		"/home/sites/rails/depot/app/views/products/show.html.erb",
+		"/home/sites/rails/depot/app/views/products/index.html.erb",
+		"/home/sites/rails/depot/test/functional/products_controller_test.rb",
+		"/home/sites/rails/depot/app/assets/stylesheets/application.css",
+		"/home/sites/rails/depot/app/views/products/_form.html.erb",
+		"/home/sites/rails/depot/app/views/products/new.html.erb",
+		"/home/sites/rails/depot/config/initializers/field_error_proc.rb",
+		"/home/sites/rails/depot/lib/email_validator.rb",
+		"/home/sites/rails/depot/Gemfile",
+		"/home/sites/rails/depot/Rakefile",
+		"/home/sva/.config/sublime-text-2/Packages/User/Auto Encoding for Ruby.sublime-settings",
+		"/home/sva/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/sites/rails/depot/app/views/products/edit.html.erb",
+		"/home/sites/rails/depot/public/index.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -176,6 +415,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<!--[if lt IE 9]>\n    <script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->",
+			"current_item",
+			"+p",
+			"alt+p",
+			"302",
+			"dest",
+			"put",
+			"</b>",
+			"<b>",
+			"</p>",
+			"<p>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -183,8 +433,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"</strong>",
+			"<strong>",
+			"</div>",
+			"<div>"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -200,11 +454,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -231,11 +485,11 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 112.0
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -248,16 +502,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true
 }
