@@ -77,6 +77,16 @@ describe User do
     it{should_not be_valid}
   end
 
+  describe "email в смешанном регистре" do
+    let (:mixed_case_email) {"Foo@ExAMPle.CoM"}
+
+    it "должен сохраняться в нижнем регистре" do
+      @user.email = mixed_case_email
+      @user.save
+      @user.reload.email.should == mixed_case_email.downcase
+    end
+  end
+
 # Пароль
   describe "когда пароль не существует" do
     before { @user.password = @user.password_confirmation = " " }
