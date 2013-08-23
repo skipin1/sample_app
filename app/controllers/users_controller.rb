@@ -18,6 +18,6 @@ class UsersController < ApplicationController
 
   def show
   	@user = User.find(params[:id])
-  	@title = "Личная страница #{@user.name}"  	
+  	@title = "Пользователь #{@user.name}"  	
   end
 end
