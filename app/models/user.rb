@@ -29,8 +29,7 @@ class User < ActiveRecord::Base
   									uniqueness: {case_sensitive: false}
 	
 	# Валидация пароля
-	validates	:password, presence: true,
-											 length: {minimum: 6}
+	validates	:password, length: {minimum: 6}
 
 	validates	:password_confirmation, presence: true											 
 
