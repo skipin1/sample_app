@@ -63,7 +63,7 @@ describe "Статические страницы:" do
     page.should have_selector 'title', text: full_title('Контакты')
 
     click_link "Главная"
-    click_link "Sign up now!"
+    click_link "Зарегистрироваться"
     page.should have_selector 'h1', text: 'Регистрация'
 
     # click_link "sample app"
