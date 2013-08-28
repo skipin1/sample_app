@@ -17,6 +17,7 @@
 doc/
 *.swp
 *~
+*.sublime-workspace
 .project
 .DS_Store
 .idea

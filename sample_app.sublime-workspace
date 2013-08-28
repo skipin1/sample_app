@@ -71,6 +71,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "spec/requests/static_pages_spec.rb",
+			"settings":
+			{
+				"buffer_size": 915,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -78,6 +86,10 @@
 		"height": 52.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -99,7 +111,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -116,16 +128,25 @@
 	},
 	"file_history":
 	[
+		"/home/sva/sites/rails/sample_app_3.2/Gemfile",
+		"/home/sva/sites/rails/sample_app_3.2/app/views/layouts/application.html.erb",
+		"/home/sva/sites/rails/sample_app_3.2/app/views/static_page/home.html.erb",
+		"/home/sva/sites/rails/sample_app_3.2/app/views/users/new.html.erb",
+		"/home/sva/sites/rails/sample_app_3.2/app/controllers/users_controller.rb",
+		"/home/sva/sites/rails/sample_app_3.2/config/routes.rb",
+		"/home/sva/sites/rails/sample_app_3.2/spec/requests/user_pages_spec.rb",
+		"/home/sva/sites/rails/sample_app_3.2/sample_app.sublime-project",
+		"/home/sva/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/sva/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/sva/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
 		"/home/sva/sites/rails/sample_app_3.2/.rspec",
 		"/home/sva/sites/rails/sample_app_3.2/.gitignore",
 		"/home/sva/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
 		"/home/sva/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
 		"/home/sva/sites/rails/sample_app_3.2/Guardfile",
 		"/home/sva/sites/rails/sample_app_3.2/spec/requests/static_pages_spec.rb",
-		"/home/sva/sites/rails/sample_app_3.2/config/routes.rb",
 		"/home/sva/sites/rails/sample_app_3.2/app/views/static_page/contact.html.erb",
 		"/home/sva/sites/rails/sample_app_3.2/app/controllers/static_page_controller.rb",
-		"/home/sva/sites/rails/sample_app_3.2/app/views/layouts/application.html.erb",
 		"/home/sva/sites/rails/sample_app_3.2/config/database.yml",
 		"/home/sva/sites/rails/test-work/Gemfile",
 		"/home/sva/sites/rails/test-work/app/helpers/application_helper.rb",
@@ -157,12 +178,11 @@
 		"/home/sva/sites/rails/bti/config/boot.rb",
 		"/home/sva/Downloads/makradio1362802059.m3u",
 		"/home/sva/sites/rails/bti/config/environments/development.rb",
-		"/home/sva/sites/rails/bti/config/locales/en.yml",
-		"/home/sva/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+		"/home/sva/sites/rails/bti/config/locales/en.yml"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -193,8 +213,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "spec/requests/static_pages_spec.rb",
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -231,7 +280,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 139.0
 	},
 	"replace":
 	{
