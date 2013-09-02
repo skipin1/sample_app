@@ -13,13 +13,14 @@ class SessionsController < ApplicationController
 			sign_in user
 			redirect_to user
 		else
-			flash[:error] = 'Не верная комбинация логин/пароль' # Not quite right!
+			flash.now[:error] = 'Не верная комбинация логин/пароль'
       render 'new'
 		end
 	end
 
 	def destroy
-		
+		sign_out
+		redirect_to root_url, notice: "Вы успешно вышли. До свидания."
 	end
 
 end

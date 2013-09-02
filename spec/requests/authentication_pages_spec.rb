@@ -20,23 +20,31 @@ describe "Авторизация:" do
 			it { should have_selector('div.alert.alert-error',  text: "Не верная комбинация логин/пароль") }
 
 			describe "посещение другой страницы после отправки логина/пароля" do
-
+				before { click_link "Главная" }
+				it { should_not have_selector('div.alert.alert-error') }
 			end
 		end
 
 		# Проверяем реакцию на ПРАВИЛЬНЫЕ данные
 		describe "с введенными правильными данными" do
-			let (:user) {FactoryGirl.create(:user)}
+			let (:user) { FactoryGirl.create(:user) }
+
 			before do
 				fill_in "Email",		with: user.email.upcase
 				fill_in	"Пароль", 	with: user.password
 				click_button "Вход в систему"
-
-				it { should have_selector('title', 	text: user.name) }
-				it { should have_link('Профиль', 		href: user_path(user)) }
-				it { should have_link('Выход', 			href: signout_path) }
-				it { should_not have_link('Вход', 	href: signin_path) }
 			end
+				
+			it { should have_selector('title', text: user.name) }
+			it { should have_link('Профиль', href: user_path(user)) }
+			it { should have_link('Выход', href: signout_path) }
+			it { should_not have_link('Вход', href: signin_path) }
+
+			describe "с последующим выходом" do
+        before { click_link "Выход"}
+        it { should have_link('Вход') }
+        it { should have_selector('div.alert.alert-notice') }
+      end
 		end
 	end
 end

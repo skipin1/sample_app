@@ -8,17 +8,23 @@
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
+
 <body>
+  <!-- Шапка сайта -->
 	<%= render 'layouts/header' %>
 
 	<div class="container">
+    <!-- Выводим ошибки -->
     <% flash.each do |key, value| %>
-      <!-- <div class="alert alert-<%= key %>"><%= value %></div> -->
       <%= content_tag(:div, value, class: "alert alert-#{key}") %>
     <% end %>
 
+    <!-- Основной контент -->
 	  <%= yield %>
+
+    <!-- Подвал сайта -->
   	<%= render 'layouts/footer' %>
+
     <%= debug(params) if Rails.env.development? %>
 	</div>
 </body>
