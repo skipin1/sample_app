@@ -53,7 +53,7 @@ describe "Статические страницы:" do
   it "правильные ссылки в шаблонах" do
     visit root_path
 
-    click_link "About"
+    click_link "О нас"
     page.should have_selector 'title', text: full_title('О нас')
 
     click_link "Помощь"

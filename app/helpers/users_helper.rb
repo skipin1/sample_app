@@ -1,4 +1,5 @@
 module UsersHelper
+	
 	# Возвращает Gravatar (http://gravatar.com) для пользователя
 	def gravatar_for(user, options={size: 50})
 		gravatar_id = Digest::MD5::hexdigest(user.email.downcase)		

@@ -1,0 +1,5 @@
+<%= form_tag("/search", method: "get", class: "navbar-search pull-right") do %>
+  <%= label_tag(:q, "Поиск") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Найти", class: "btn btn-small") %>
+<% end %>

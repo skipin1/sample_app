@@ -11,7 +11,8 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :password, :password_confirmation
+  attr_accessor :old_password   # Virtual attributes
+  attr_accessible :name, :email, :password, :password_confirmation, :old_password
   has_secure_password
 
   before_save { email.downcase! }     #{|user| user.email = email.downcase}
