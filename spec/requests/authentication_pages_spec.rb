@@ -43,6 +43,8 @@ describe "Аутентификация:" do
 			describe "с последующим выходом" do
         before { click_link "Выход"}
         it { should have_link('Вход') }
+        it { should_not have_link('Профиль') }
+        it { should_not have_link('Настройки') }
         it { should have_selector('div.alert.alert-notice') }
       end
 		end
@@ -85,6 +87,48 @@ describe "Аутентификация:" do
 				describe "посещение страницы User#index action" do
 					before { visit users_path }
 					it { should have_selector('title', text: "Вход в систему") }
+				end
+			end
+
+			describe "при попытке посетить защищенную страницу" do
+				before do
+					visit edit_user_path(user)
+					fill_in "Email",	with: user.email
+					fill_in "Пароль",	with: user.password
+					click_button "Вход в систему"
+				end
+
+				describe "после авторизации" do
+					it "должен отобразить желанную страницу" do
+						page.should have_selector('title',text: "Редактирование пользователя")
+					end
+
+					describe "при повторной автризации" do
+						before do
+							delete signout_path
+							visit signin_path
+							fill_in "Email",	with: user.email
+							fill_in "Пароль", with: user.password
+							click_button "Вход в систему"
+						end
+
+						it "должна отобразиться дефолтная страница по умолчанию (профиль)" do
+							page.should have_selector('h1', text: user.name)
+						end
+					end
+				end
+			end
+
+			describe "в контроллере Microposts" do
+
+				describe "отправка к create action" do
+					before { post microposts_path }
+					specify { response.should redirect_to(signin_path) }
+				end
+
+				describe "отправка на destroy action" do
+					before { delete micropost_path(FactoryGirl.create(:micropost)) }
+					specify { response.should redirect_to(signin_path) }
 				end
 			end
 		end

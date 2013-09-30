@@ -30,6 +30,8 @@ describe User do
   it { should respond_to(:remember_token) }
   it { should respond_to(:admin) }
   it { should respond_to(:authenticate) }
+  it { should respond_to(:microposts) }
+  it { should respond_to(:feed) }
 
   it { should be_valid }
   it { should_not be_admin }
@@ -41,6 +43,14 @@ describe User do
     end
 
     it { should be_admin }
+  end
+
+  describe "проверка аттрибутов," do
+    it "не должно быть доступа к :admin" do
+      expect do
+        User.new(admin: 1)
+      end.to raise_error(ActiveModel::MassAssignmentSecurity::Error)
+    end
   end
 
 # Проверка имени
@@ -141,5 +151,40 @@ describe User do
   describe "идентификатор поьзователя (куки)" do
     before {@user.save}
     its(:remember_token) { should_not be_blank }
+  end
+
+  describe "ассоцияации с mircopost" do
+
+    before { @user.save }
+    let!(:older_micropost) do
+      FactoryGirl.create(:micropost, user: @user, created_at: 1.day.ago)
+    end
+
+    let!(:newer_micropost) do
+      FactoryGirl.create(:micropost, user: @user, created_at: 1.hour.ago)
+    end
+
+    it "должны быть правильные сообщения в правильном порядке" do
+      @user.microposts.should == [newer_micropost, older_micropost]
+    end
+
+    it "должен удалить связанные микросообщения" do
+      microposts = @user.microposts.dup
+      @user.destroy
+      microposts.should_not be_empty
+      microposts.each do |micropost|
+        Micropost.find_by_id(micropost.id).should be_nil
+      end
+    end
+
+    describe "статус" do
+      let(:unfollowed_post) do
+        FactoryGirl.create(:micropost, user: FactoryGirl.create(:user))
+      end
+
+      its(:feed) { should include(newer_micropost) }
+      its(:feed) { should include(older_micropost) }
+      its(:feed) { should_not include(unfollowed_post) }
+    end
   end
 end

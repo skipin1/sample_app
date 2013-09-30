@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   before_filter :signed_in_user, only: [:index, :edit, :update, :destroy]
   before_filter :correct_user,   only: [:edit, :update]
   before_filter :admin_user,     only: :destroy
+  before_filter :registr_user,   only: [:new, :create]
 
   def index
     @title = "Пользователи"
@@ -44,8 +45,9 @@ class UsersController < ApplicationController
   end
 
   def show
-  	@user = User.find(params[:id])
-  	@title = "Пользователь #{@user.name}"  	
+    @user = User.find(params[:id])
+    @title = "Пользователь #{@user.name}"
+    @microposts = @user.microposts.paginate(page: params[:page], per_page: 10)
   end
 
   def destroy
@@ -56,13 +58,6 @@ class UsersController < ApplicationController
 
   private
 
-    def signed_in_user
-      unless signed_in?
-        store_location  # remember the request URL
-        redirect_to signin_url, notice: "Пожалуйста авторизуйтесь"
-      end      
-    end
-
     def correct_user
       @user = User.find(params[:id])
       redirect_to edit_user_path(current_user), notice: "Попытка редактирования чужого профиля. Редактируйте свой." unless current_user?(@user)
@@ -70,5 +65,9 @@ class UsersController < ApplicationController
 
     def admin_user
       redirect_to root_path unless current_user.admin?      
+    end
+
+    def registr_user
+      redirect_to root_path, notice: "Вы уже зарегистрированы." if signed_in?
     end
 end

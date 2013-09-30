@@ -14,6 +14,7 @@ class User < ActiveRecord::Base
   attr_accessor :old_password   # Virtual attributes
   attr_accessible :name, :email, :password, :password_confirmation, :old_password
   has_secure_password
+  has_many  :microposts, dependent: :destroy
 
   before_save { email.downcase! }     #{|user| user.email = email.downcase}
   before_save :create_remember_token
@@ -32,6 +33,10 @@ class User < ActiveRecord::Base
 	# Валидация пароля
 	validates	:password, length: { minimum: 6 }
 	validates	:password_confirmation, presence: true
+
+  def feed
+    Micropost.where("user_id = ?", id)    
+  end
 
   private
 

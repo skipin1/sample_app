@@ -2,6 +2,8 @@
 
 class SessionsController < ApplicationController
 	
+	#before_filter :registr_user, only: [:new, :create]
+
 	def new
 		@title = "Вход в систему"
 	end
